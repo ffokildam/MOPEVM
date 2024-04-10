@@ -1,0 +1,4 @@
+﻿  TaskJ.cpp
+C:\Users\alexa\source\repos\Laba4.2\TaskJ\TaskJ.cpp(7,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\alexa\source\repos\Laba4.2\TaskJ\TaskJ.cpp(39,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TaskJ.vcxproj -> C:\Users\alexa\source\repos\Laba4.2\x64\Debug\TaskJ.exe
