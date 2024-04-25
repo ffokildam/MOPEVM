@@ -1,0 +1,29 @@
+1)babceabbecbabbbbaecb
+  bab ceabbecbabbbbaecb
+  +ceabbecbabbbbaecb
+  +ceabbec bab bbbaecb
+  +ceabbec+bbbaecb
+  +ceab bec +bbbaecb
+  +ceab++bbbaecb
+  +ceab ++ bbbaecb
+  +ceab+bbbaecb
+  +cea b+b bbaecb
+  +ceabbbbaecb
+  ceabbbbaecb
+
+2)cbeabecbaebcabecba
+  cbea bec baebcabecba
+  cbea+baebcabecba
+  cbea+baebca bec ba
+  cbea+baebca+ba
+
+
+aecbceee
+
+babbabbabbabacabacabacbacaecbceecacecab
+aecbcee
+
+abceabecbabecabecb
+
+
+abceab

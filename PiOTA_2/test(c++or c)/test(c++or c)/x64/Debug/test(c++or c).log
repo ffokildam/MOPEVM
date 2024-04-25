@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  test(c++or c).vcxproj -> C:\MOP_EVM\PiOTA_2\test(c++or c)\x64\Debug\test(c++or c).exe
+C:\MOP_EVM\PiOTA_2\test(c++or c)\test(c++or c)\main.cpp(26): error C4700: uninitialized local variable 'cont' used
