@@ -1,2 +1,0 @@
-﻿  main.cpp
-C:\MOP_EVM\PiOTA_2\Task3(MA)\Task3(MSVC)\Task3(MSVC)\main.cpp(26): error C4700: uninitialized local variable 'cont' used

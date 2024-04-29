@@ -10,7 +10,7 @@
 #include <regex>
 
 struct SubstTable{
-    std::string Sample;
+    std::string Sample;     
     std::string Replacement;
     bool endPoint;
 };
