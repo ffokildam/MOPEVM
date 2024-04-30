@@ -1,4 +1,4 @@
-# Монорепо всего что связано с МОП ЭВМ 
+# Мопорепо всего что связано с МОП ЭВМ 
 ![](https://github.com/ffokildam/MOPEVM/blob/main/siski/siski.gif)
 
 
