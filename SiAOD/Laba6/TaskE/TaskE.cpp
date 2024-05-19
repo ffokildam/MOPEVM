@@ -1,27 +1,50 @@
-#include <bits/stdc++.h>
+// ЮФУ, ИКТИБ, МОП ЭВМ
+// Структуры и алгоритмы обработки данных
+// Лаба 6
+// КТбо1-6, Кравченко Александр Андреевич
+// TaskE
+// 19.05.2024
+
+#include <iostream>
+#include <vector>
+#include <list>
 
 using namespace std;
 
-int main(){
-    int n,k;
-    cin>>n>>k;
-    
+int main()
+{
+    int n, k;
+    cin >> n >> k;
+
     vector<int> mass(n);
     for (int i = 0; i < n; i++)
     {
-        cin>>mass[i];
+        cin >> mass[i];
     }
 
-    int i = 0;
-    int allmin = 1e9;
-    for (int j = k; j <= n; j++)
+    list<int> min;
+
+    for (int i = 0; i < n; ++i)
     {
-        i = j-k;
-        while(i<j){
-            allmin = min(allmin,mass[i]);
-            i++;
+
+        if (!min.empty() && min.front() == i - k)
+        {
+            min.pop_front();
         }
-        cout<<allmin<<' ';
-        allmin = 1e9;
+
+        while (!min.empty() && mass[min.back()] >= mass[i])
+        {
+            min.pop_back();
+        }
+
+        min.push_back(i);
+
+        if (i >= k - 1)
+        {
+            cout<<mass[min.front()]<<endl;
+        }
     }
+
+
+    return 0;
 }
