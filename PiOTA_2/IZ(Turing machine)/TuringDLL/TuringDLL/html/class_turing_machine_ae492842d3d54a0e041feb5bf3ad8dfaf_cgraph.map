@@ -1,0 +1,17 @@
+<map id="TuringMachine::run" name="TuringMachine::run">
+<area shape="rect" id="Node000001" title="Функция, моделирующая работу машины Тьюринга, запускает функцию executeStep в цикле до того момента,..." alt="" coords="5,81,137,108"/>
+<area shape="rect" id="Node000002" href="$class_tape.html#ab353d5322007b8a4e5b5b3e7011e42b3" title="Функция &#39;очистки&#39; ленты машины Тьюринга. Очищает её от символов пробела." alt="" coords="221,56,335,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,84,205,75,206,81,137,89"/>
+<area shape="rect" id="Node000003" href="$class_turing_machine.html#a2a69e8fb5e5112d0b1ae888d8925a561" title="Функция выполнения одного шага машины Тьюринга." alt="" coords="185,107,371,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,100,170,104,169,109,137,105"/>
+<area shape="rect" id="Node000004" href="$class_tape.html#a2e143a0f3de65e626e7d030b2b698ada" title="Функция перемещения головки влево по ленте." alt="" coords="424,5,532,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,104,370,92,384,81,393,68,403,55,417,42,425,37,428,42,421,46,407,59,398,72,388,84,372,97,347,109"/>
+<area shape="rect" id="Node000005" href="$class_tape.html#a045da6e9cc8d21024d89c0bee6e639f6" title="Функция перемещения головки влево по ленте." alt="" coords="419,56,536,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="333,103,407,84,408,90,334,109"/>
+<area shape="rect" id="Node000006" href="$class_tape.html#a9337d9d701db7f0691534e8cfaeb16a2" title="Функция, вывода в консоль текущего состояния ленты машины Тьюринга." alt="" coords="437,107,519,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="371,117,421,117,421,123,371,123"/>
+<area shape="rect" id="Node000007" href="$class_tape.html#ab8ff70f09fd81b9c23b561ee58e9f85c" title="Функция чтения символа, находящегося на текущей позиции головки машины Тьюринга." alt="" coords="437,157,519,184"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="334,131,422,154,421,159,333,137"/>
+<area shape="rect" id="Node000008" href="$class_tape.html#a106da612b72ead6e926ff2b36fb7a80d" title="Функция записи символа на текущую позицию головки машины Тьюринга." alt="" coords="436,208,520,235"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="304,131,420,194,431,199,429,204,418,198,302,136"/>
+</map>

@@ -1,0 +1,17 @@
+﻿  TuringDLL.cpp
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(43,17): warning C4251: 'Command::nextState': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'Command'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(90,23): warning C4251: 'Tape::tape': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(90,10): message : see declaration of 'std::vector<char,std::allocator<char>>'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(125,52): warning C4251: 'TuringMachine::program': class 'std::map<std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>>>>' needs to have dll-interface to be used by clients of class 'TuringMachine'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(106,30): message : see declaration of 'std::map<std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>>>>'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(126,17): warning C4251: 'TuringMachine::currentState': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'TuringMachine'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(135,141): warning C4190: 'loadProgram' has C-linkage specified, but returns UDT 'std::map<std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>>>>' which is incompatible with C
+C:\Users\alexa\source\repos\TuringDLL\TuringDLL\TuringDLL.h(106,30): message : see declaration of 'std::map<std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<char,Command,std::less<char>,std::allocator<std::pair<const char,Command>>>>>>'
+     Creating library C:\Users\alexa\source\repos\TuringDLL\x64\Release\TuringDLL.lib and object C:\Users\alexa\source\repos\TuringDLL\x64\Release\TuringDLL.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 556 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TuringDLL.vcxproj -> C:\Users\alexa\source\repos\TuringDLL\x64\Release\TuringDLL.dll

@@ -1,0 +1,11 @@
+<map id="framework.h" name="framework.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="132,5,223,32"/>
+<area shape="rect" id="Node000002" href="$pch_8h.html" title=" " alt="" coords="151,80,204,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,48,180,80,175,80,175,48"/>
+<area shape="rect" id="Node000003" href="$_turing_d_l_l_8cpp.html" title="Файл реализации для машины Тьюринга." alt="" coords="5,155,110,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,117,80,156,77,152,142,113"/>
+<area shape="rect" id="Node000004" href="$dllmain_8cpp.html" title=" " alt="" coords="134,155,221,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="180,122,180,154,175,154,175,122"/>
+<area shape="rect" id="Node000005" href="$pch_8cpp.html" title=" " alt="" coords="245,155,313,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="209,114,263,152,260,156,206,118"/>
+</map>

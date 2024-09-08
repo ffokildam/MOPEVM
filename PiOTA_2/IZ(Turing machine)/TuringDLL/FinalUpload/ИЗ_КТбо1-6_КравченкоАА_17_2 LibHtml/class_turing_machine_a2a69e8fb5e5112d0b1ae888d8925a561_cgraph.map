@@ -1,0 +1,13 @@
+<map id="TuringMachine::executeStep" name="TuringMachine::executeStep">
+<area shape="rect" id="Node000001" title="Функция выполнения одного шага машины Тьюринга." alt="" coords="5,107,192,133"/>
+<area shape="rect" id="Node000002" href="$class_tape.html#a2e143a0f3de65e626e7d030b2b698ada" title="Функция перемещения головки влево по ленте." alt="" coords="244,5,353,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,104,238,42,250,36,252,41,241,46,125,109"/>
+<area shape="rect" id="Node000003" href="$class_tape.html#a045da6e9cc8d21024d89c0bee6e639f6" title="Функция перемещения головки влево по ленте." alt="" coords="240,56,357,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,103,227,84,229,90,155,109"/>
+<area shape="rect" id="Node000004" href="$class_tape.html#a9337d9d701db7f0691534e8cfaeb16a2" title="Функция, вывода в консоль текущего состояния ленты машины Тьюринга." alt="" coords="257,107,340,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,117,241,117,241,123,192,123"/>
+<area shape="rect" id="Node000005" href="$class_tape.html#ab8ff70f09fd81b9c23b561ee58e9f85c" title="Функция чтения символа, находящегося на текущей позиции головки машины Тьюринга." alt="" coords="257,157,340,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="155,131,243,154,241,159,154,137"/>
+<area shape="rect" id="Node000006" href="$class_tape.html#a106da612b72ead6e926ff2b36fb7a80d" title="Функция записи символа на текущую позицию головки машины Тьюринга." alt="" coords="256,208,341,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="125,131,241,194,252,199,250,204,238,198,123,136"/>
+</map>

@@ -1,0 +1,82 @@
+Turbo Assembler	 Version 3.1	    09/08/24 18:18:31	    Page 1
+lab1.asm
+
+
+
+      1	    0000				 .model	small	; memory model
+      2						 .386		; 386 processor	instructions enabled
+      3	    0000			 stack	 100h		; stack	size: 256 bytes
+      4	    0000				 dataseg	; define data segment
+      5	    0000  0002			 vA	 dw 2		; define 4x 2 byte variables
+      6	    0002  000C			 vB	 dw 12
+      7	    0004  0001			 vC	 dw 1
+      8	    0006  ????			 vX	 dw ?		; result
+      9	    0008				 codeseg	; Lab. work 1, Variant 3
+     10	    0000			 start:			; beginning prog. exec.
+     11						 startupcode	; address of dataseg beginnin
+1    12	    0000			 @Startup:
+1    13	    0000  BA 0000s			 MOV	 DX,@data
+1    14	    0003  8E DA				 MOV	 DS,DX
+1    15	    0005  8C D3				 MOV	 BX,SS
+1    16	    0007  2B DA				 SUB	 BX,DX
+1    17	    0009  C1 E3	04			 SHL	 BX,4
+1    18	    000C  8E D2				 MOV	 SS,DX
+1    19	    000E  03 E3				 ADD	 SP,BX
+     20
+     21	    0010  A1 0000r			 mov	 AX, vA	; AX = A
+     22	    0013  D1 F8				 sar	 AX, 1	; AX = A/2
+     23	    0015  8B 1E	0002r			 mov	 BX, vB	; BX = B
+     24	    0019  D1 E3				 sal	 BX, 1	; BX = 2B
+     25	    001B  03 1E	0002r			 add	 BX, vB	; BX = 3B
+     26	    001F  03 C3				 add	 AX, BX	; AX = A/2 + 3B
+     27	    0021  C1 F8	02			 sar	 AX, 2	; AX = (A/2 + 3B)/4
+     28	    0024  8B 1E	0004r			 mov	 BX, vC	; BX = C
+     29	    0028  C1 E3	02			 sal	 BX, 2	; BX = 4C
+     30	    002B  03 1E	0004r			 add	 BX, vC	; BX = 5C
+     31	    002F  2B C3				 sub	 AX, BX	; AX = (A/2 + 3B) / 4 -	5C
+     32	    0031  05 0003			 add	 AX, 3	; AX = (A/2 + 3B) / 4 -	5C + 3
+     33	    0034  A3 0006r			 mov	 vX, AX	; X = (A/2 + 3B) / 4 - 5C + 3
+     34	    0037			 quit:			; end of prog.
+     35						 exitcode 0	; return control ro OS,	return code 0
+1    36	    0037  B8 4C00			 MOV	 AX,04C00h
+1    37	    003A  CD 21				 INT	 21h
+     38					 end start		; prog.	end mark
+Turbo Assembler	 Version 3.1	    09/08/24 18:18:31	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "09/08/24"
+??FILENAME			  Text	 "lab1	  "
+??TIME				  Text	 "18:18:31"
+??VERSION			  Number 030A
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0F0FH
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 LAB1
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@STARTUP			  Near	 _TEXT:0000
+@WORDSIZE			  Text	 2
+QUIT				  Near	 _TEXT:0037
+START				  Near	 _TEXT:0000
+VA				  Word	 DGROUP:0000
+VB				  Word	 DGROUP:0002
+VC				  Word	 DGROUP:0004
+VX				  Word	 DGROUP:0006
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0008 Word	  Public  DATA
+_TEXT				  16  003C Word	  Public  CODE
+

@@ -1,0 +1,5 @@
+<map id="TuringMachine::executeStep" name="TuringMachine::executeStep">
+<area shape="rect" id="Node000001" title="Функция выполнения одного шага машины Тьюринга." alt="" coords="185,5,371,32"/>
+<area shape="rect" id="Node000002" href="$class_turing_machine.html#ae492842d3d54a0e041feb5bf3ad8dfaf" title="Функция, моделирующая работу машины Тьюринга, запускает функцию executeStep в цикле до того момента,..." alt="" coords="5,5,137,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,21,137,21,137,16,169,16"/>
+</map>

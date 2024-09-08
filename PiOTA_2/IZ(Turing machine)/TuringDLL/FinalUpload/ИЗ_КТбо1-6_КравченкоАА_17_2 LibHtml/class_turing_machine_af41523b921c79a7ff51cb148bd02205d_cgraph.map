@@ -1,0 +1,5 @@
+<map id="TuringMachine::printTape" name="TuringMachine::printTape">
+<area shape="rect" id="Node000001" title="Функция, вывода в консоль текущего состояния ленты машины Тьюринга." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="Node000002" href="$class_tape.html#a9337d9d701db7f0691534e8cfaeb16a2" title="Функция, вывода в консоль текущего состояния ленты машины Тьюринга." alt="" coords="220,5,302,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,16,204,16,204,21,172,21"/>
+</map>
