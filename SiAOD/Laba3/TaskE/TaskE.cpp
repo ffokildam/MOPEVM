@@ -42,7 +42,7 @@ int main() {
     Node* root = nullptr;
     int key;
     while (cin >> key && key != 0) TreeInsert(root, key);
-
+ 
     Node* first = nullptr;
     Node* second = nullptr;
     SecondLargest(root, first, second);

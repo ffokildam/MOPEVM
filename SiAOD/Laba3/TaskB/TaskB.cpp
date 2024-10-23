@@ -1,10 +1,10 @@
-//ЮФУ, ИКТИБ, МОП ЭВМ
-//Структуры и алгоритмы обработки данных
-//Лаба 3.1
-//КТбо1-6, Кравченко Александр Андреевич
-//TaskB
-//17.03.2024
-#include<bits/stdc++.h>
+// ЮФУ, ИКТИБ, МОП ЭВМ
+// Структуры и алгоритмы обработки данных
+// Лаба 3.1
+// КТбо1-6, Кравченко Александр Андреевич
+// TaskB
+// 17.03.2024
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -12,11 +12,11 @@ int main()
 {
     map<string, int> devs;
     map<string, int> min;
-    
-    string name, devName,wideSp = "";
-    
-    int coast,cnt=0;
-    
+
+    string name, devName, wideSp = "";
+
+    int coast, cnt = 0;
+
     for (int i = 0; i < 6; i++)
     {
         cin >> name >> devName >> coast;
@@ -28,7 +28,8 @@ int main()
         else
         {
             devs[devName]++;
-            if (coast < min[devName]) min[devName] = coast;
+            if (coast < min[devName])
+                min[devName] = coast;
         }
         if (devs[devName] > cnt)
         {
@@ -37,7 +38,8 @@ int main()
         }
         else if (devs[devName] == cnt)
         {
-            if (min[devName] < min[wideSp])wideSp = devName;
+            if (min[devName] < min[wideSp])
+                wideSp = devName;
         }
     }
     cout << wideSp;
